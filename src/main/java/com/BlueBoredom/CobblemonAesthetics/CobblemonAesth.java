@@ -1,5 +1,6 @@
 package com.BlueBoredom.CobblemonAesthetics;
 
+import com.BlueBoredom.CobblemonAesthetics.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -49,6 +50,8 @@ public class CobblemonAesth {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -71,7 +74,38 @@ public class CobblemonAesth {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.PINSIRCARDCA);
+            event.accept(ModItems.SCYTHERCARDCA);
+            event.accept(ModItems.BULBASAURCARDCA);
+            event.accept(ModItems.IVYSAURCARDCA);
+            event.accept(ModItems.VENUSAURCARDCA);
+            event.accept(ModItems.NIDOQUEENCARDCA);
+            event.accept(ModItems.CHARMANDERCARDCA);
+            event.accept(ModItems.CHARMELEONCARDCA);
+            event.accept(ModItems.CHARIZARDCARDCA);
+            event.accept(ModItems.PONYTACARDCA);
+            event.accept(ModItems.RAPIDASHCARDCA);
+            event.accept(ModItems.MOLTRESCARDCA);
+            event.accept(ModItems.SQUIRTLECARDCA);
+            event.accept(ModItems.WARTORTLECARDCA);
+            event.accept(ModItems.BLASTOISECARDCA);
+            event.accept(ModItems.STARYUCARDCA);
+            event.accept(ModItems.STARMIECARDCA);
+            event.accept(ModItems.ARTICUNOCARDCA);
+            event.accept(ModItems.GASTLYCARDCA);
+            event.accept(ModItems.HAUNTERCARDCA);
+            event.accept(ModItems.GENGARCARDCA);
+            event.accept(ModItems.SLOWPOKECARDCA);
+            event.accept(ModItems.SLOWBROCARDCA);
+            event.accept(ModItems.MEWTWOCARDCA);
+            event.accept(ModItems.CHANSEYCARDCA);
+            event.accept(ModItems.DRAGONITECARDCA);
+            event.accept(ModItems.EEVEECARDCA);
+            event.accept(ModItems.KANGASKHANCARDCA);
+            event.accept(ModItems.MUKCARDCA);
+            event.accept(ModItems.SNORLAXCARDCA);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bluescobbleaesthetics:item/ca-cardsprites/normal/eevee_cardca"
+  }
+}
