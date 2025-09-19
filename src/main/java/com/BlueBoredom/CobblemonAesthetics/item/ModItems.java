@@ -69,6 +69,18 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SNORLAXCARDCA = ITEMS.register("snorlax_cardca",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PIKACHUCARDCA = ITEMS.register("pikachu_cardca",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAICHUCARDCA = ITEMS.register("raichu_cardca",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MAGNEMITECARDCA = ITEMS.register("magnemite_cardca",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JOLTEONCARDCA = ITEMS.register("jolteon_cardca",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ELECTABUZZCARDCA = ITEMS.register("electabuzz_cardca",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ZAPDOSCARDCA = ITEMS.register("zapdos_cardca",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventbus){
         ITEMS.register(eventbus);

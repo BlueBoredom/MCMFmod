@@ -32,5 +32,12 @@
   "item.bluescobbleaesthetics.dragonite_cardca": "Dragonite",
   "item.bluescobbleaesthetics.kangaskhan_cardca": "Kangaskhan",
   "item.bluescobbleaesthetics.muk_cardca": "Muk",
-  "item.bluescobbleaesthetics.snorlax_cardca": "Snorlax"
+  "item.bluescobbleaesthetics.snorlax_cardca": "Snorlax",
+
+  "item.bluescobbleaesthetics.pikachu_cardca": "Pikachu",
+  "item.bluescobbleaesthetics.raichu_cardca": "Raichu",
+  "item.bluescobbleaesthetics.electabuzz_cardca": "Electabuzz",
+  "item.bluescobbleaesthetics.jolteon_cardca": "Jolteon",
+  "item.bluescobbleaesthetics.magnemite_cardca": "Magnemite",
+  "item.bluescobbleaesthetics.zapdos_cardca": "Zapdos"
 }
