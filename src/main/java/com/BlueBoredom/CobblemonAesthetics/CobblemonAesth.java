@@ -111,6 +111,12 @@ public class CobblemonAesth {
             event.accept(ModItems.MAGNEMITECARDCA);
             event.accept(ModItems.ELECTABUZZCARDCA);
             event.accept(ModItems.ZAPDOSCARDCA);
+            event.accept(ModItems.AERODACTYLCARDCA);
+            event.accept(ModItems.HITMONLEECARDCA);
+            event.accept(ModItems.DIGLETCARDCA);
+            event.accept(ModItems.DUGTRIOCARDCA);
+            event.accept(ModItems.MACHOKECARDCA);
+            event.accept(ModItems.MACHAMPCARDCA);
         }
     }
 
